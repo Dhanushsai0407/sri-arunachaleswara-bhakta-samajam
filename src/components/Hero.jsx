@@ -23,19 +23,19 @@ const Hero = () => {
         <img
           src="/images/shiva-hero.jpg"
           alt="Lord Shiva Mahadev in Kailash Meditation"
-          className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out brightness-90 contrast-110"
+          className="w-full h-full shiva-hero-bg object-cover object-[70%_30%] md:object-center transition-all duration-1000 ease-out brightness-95 contrast-110"
           loading="eager"
         />
-        {/* Colorful Radiant Gradients: Saffron Sunlight & Cosmic Indigo */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/75 to-slate-950/40" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(245,158,11,0.25)_0%,rgba(15,23,42,0.75)_65%,rgba(5,7,14,0.95)_100%)]" />
+        {/* Devotional Radiant Gradients: Calibrated for Lord Shiva's divine visibility on mobile and desktop */}
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/65 to-slate-950/30 sm:via-slate-950/75 sm:to-slate-950/40" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(245,158,11,0.22)_0%,rgba(15,23,42,0.65)_60%,rgba(5,7,14,0.92)_100%)]" />
       </div>
 
       {/* Floating Sacred Golden Aura */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-tr from-amber-500/15 via-yellow-400/20 to-orange-500/15 rounded-full blur-3xl pointer-events-none animate-pulse-subtle" />
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[320px] sm:w-[600px] h-[320px] sm:h-[600px] bg-gradient-to-tr from-amber-500/15 via-yellow-400/20 to-orange-500/15 rounded-full blur-3xl pointer-events-none animate-pulse-subtle" />
 
       {/* Hero Content Container */}
-      <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16 flex flex-col items-center">
+      <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-6 pb-14 sm:py-16 flex flex-col items-center">
         
         {/* Sacred Location Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/85 border border-amber-500/60 text-amber-300 text-xs sm:text-sm font-semibold tracking-wide mb-6 backdrop-blur-md shadow-lg shadow-amber-500/10">
